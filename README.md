@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 # Demo heroku cloud
 
-<a href="http://angular-reactive-form.herokuapp.com/"/>
+(http://angular-reactive-form.herokuapp.com/)
 
 ## Development server
 
