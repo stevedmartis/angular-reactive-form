@@ -322,7 +322,7 @@
 
 
 
-<div class="content" role="main">
+<div class="container" role="main">
 
 
 
@@ -331,12 +331,11 @@
   </div>
 
 
-  <form [formGroup]="myForm" #empFormDirective="ngForm" (ngSubmit)="onAddEmpTopic(empFormDirective)"
-    class="example-form">
+  <form [formGroup]="myForm" #empFormDirective="ngForm" (ngSubmit)="onAddEmpTopic(empFormDirective)" class="ng-form">
 
 
 
-    <mat-form-field class="example-full-width">
+    <mat-form-field class="ng-full-width">
       <input matInput name="given-name" placeholder="First name" formControlName="name" [errorStateMatcher]="matcher">
 
       <mat-error>
@@ -351,7 +350,7 @@
 
     <br>
 
-    <mat-form-field class="example-full-width">
+    <mat-form-field class="ng-full-width">
       <input matInput name="family-name" placeholder="Last name" formControlName="lastName"
         [errorStateMatcher]="matcher">
 
@@ -366,7 +365,7 @@
 
     <br>
 
-    <mat-form-field class="example-full-width">
+    <mat-form-field class="ng-full-width">
       <input matInput name="bday" [matDatepicker]="picker" placeholder="Birthday" formControlName="birthday"
         [errorStateMatcher]="matcher">
 
@@ -384,7 +383,7 @@
 
     <br>
 
-    <mat-form-field class="example-full-width">
+    <mat-form-field class="sm-full-width">
       <input matInput name="sex" placeholder="Gender" formControlName="gender" [errorStateMatcher]="matcher">
 
       <mat-error>
@@ -398,7 +397,7 @@
 
     <br>
 
-    <mat-form-field class="example-full-width">
+    <mat-form-field class="ng-full-width">
       <input matInput name="tel" placeholder="Phone" formControlName="phone" [errorStateMatcher]="matcher">
 
       <mat-error>
@@ -412,7 +411,7 @@
 
     <br>
 
-    <mat-form-field class="example-full-width">
+    <mat-form-field class="ng-full-width">
       <input matInput name="street-address" placeholder="Address" formControlName="address"
         [errorStateMatcher]="matcher">
 
@@ -427,7 +426,7 @@
 
     <br>
 
-    <mat-form-field class="example-full-width">
+    <mat-form-field class="ng-full-width">
       <input matInput placeholder="Profession" formControlName="profession" [errorStateMatcher]="matcher">
 
       <mat-error>
@@ -441,7 +440,7 @@
 
     <br>
 
-    <mat-form-field class="example-full-width">
+    <mat-form-field class="ng-full-width">
       <input matInput placeholder="Incomes" formControlName="incomes" [errorStateMatcher]="matcher">
 
       <mat-error>
