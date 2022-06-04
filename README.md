@@ -6,7 +6,9 @@ Components of angular/material, design responsive with scss, hyml, typescript.
 
 # Demo heroku cloud
 
-(http://angular-reactive-form.herokuapp.com/)
+Deploy with heroku container and docker image.
+
+http://angular-reactive-form.herokuapp.com/
 
 ## Complie project
 
