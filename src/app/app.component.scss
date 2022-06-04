@@ -8,10 +8,48 @@
     color: white;
 }
 
+.title {
+    width:100%;
+    text-align:start; 
+    position: relative;
+ }
+ 
+ h3 {
+    position:relative; 
+    padding:10px; 
+    background: #f3f5f6;
+    display: inline-block;
+    z-index: 1;
+ }
+ 
+ .title::after {
+    content:'';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    height: 1px;
+    background: #000;
+    z-index:0;
+ }
+
+
+
+
 .button {
     position: fixed;
-    bottom: 0px;
+    bottom: 0rem;
     right: 0px;
     width: 100% !important;
   }
 
+@media screen and (orientation: landscape){
+  
+    .button {
+      position: relative;
+      top: 1rem;
+      right: 0px;
+      width: 100% !important;
+    }
+  }
+  
