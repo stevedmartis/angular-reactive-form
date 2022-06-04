@@ -2,6 +2,24 @@
 
 html, body { height: 100%; 
     overflow-y: scroll;
-    overflow-x: hidden;}
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+    overflow-x: hidden;
+    }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; font-size: 16px;  }
 
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+    select:focus,
+    textarea:focus,
+    input:focus {
+      font-size: 16px !important;
+      background:transparent;
+    }
+  }
+  
+
+  @media screen and (-webkit-min-device-pixel-ratio:0) { 
+    select,
+    textarea,
+    input {
+      font-size: 16px !important;
+    }
+  }
